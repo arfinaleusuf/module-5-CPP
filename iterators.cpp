@@ -7,11 +7,9 @@ int main()
     // {
     //     cout << s[i] << endl;
     // }
-    for(int i = 0; i<s.size(); i++)
+    for (string::iterator it = s.begin(); it < s.end(); it++)
     {
-        cout << s[i] << endl;
+        cout << *it << endl;
     }
-    cout << *s.begin() << endl;
-    cout << *(s.end()-1) << endl;
     return 0;
 }
