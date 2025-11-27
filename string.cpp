@@ -2,7 +2,16 @@
 using namespace std;
 int main()
 {
-    char s[10] = "hello";
+    string s = "hello";
+    string s2 = "gello";
+    if(s == s2)
+    {
+        cout << "same" << endl;
+    }
+    else
+    {
+        cout << "not same"<< endl;
+    }
     cout << s << endl;
     return 0;
 }
